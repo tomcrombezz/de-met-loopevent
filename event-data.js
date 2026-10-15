@@ -1,6 +1,6 @@
 /* Werk alle eventgegevens hier bij. Laat onbekende waarden leeg tot ze bevestigd zijn. */
 window.EVENT_DATA = {
-  name: "[NAAM LOOPEVENT]",
+  name: "Klaverloop",
   date: "[DATUM]",
   location: "[LOCATIE]",
   address: "[ADRES]",
