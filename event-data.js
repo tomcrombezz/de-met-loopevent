@@ -14,10 +14,10 @@ window.EVENT_DATA = {
   distances: ["[AFSTAND 1]", "[AFSTAND 2]", "[AFSTAND 3]"],
   program: ["Onthaal · [UUR]", "Startmomenten · [UREN]", "Activiteiten · [INFO]"],
   faq: [
-    { question: "Wie mag deelnemen?", answer: "[DEELNAMEVOORWAARDEN]" },
+    { question: "Wie mag deelnemen?", answer: "Zonder twijfel: iedereen!" },
     { question: "Welke afstand kan ik lopen?", answer: "[AFSTANDEN EN DOELGROEPEN]" },
     { question: "Wat kost deelname?", answer: "[DEELNAMEPRIJS]" },
-    { question: "Wat als het slecht weer is?", answer: "[AFSPRAAK BIJ SLECHT WEER]" },
-    { question: "Waar kan ik terecht met vragen?", answer: "[CONTACTGEGEVENS]" }
+    { question: "Wat als het slecht weer is?", answer: "There is no such thing as bad weather, only bad clothing" },
+    { question: "Waar kan ik terecht met vragen?", answer: "info@demettieltwinge.eu" }
   ]
 };
