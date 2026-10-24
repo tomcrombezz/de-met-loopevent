@@ -26,7 +26,7 @@
     <li><span class="timeline-index">0${index + 1}</span><div><strong>${escapeHTML(item.split(' · ')[0])}</strong><span>${escapeHTML(item.includes(' · ') ? item.split(' · ')[1] : '[INFO]')}</span></div><span class="status-pill">Nog aan te vullen</span></li>`).join('');
 
   document.querySelector('#faq-list').innerHTML = data.faq.map(({ question, answer }) => `
-    <details class="faq-item"><summary>${escapeHTML(question)}<span class="faq-plus" aria-hidden="true">+</span></summary><p>${escapeHTML(answer)}</p><span class="status-pill">Antwoord volgt</span></details>`).join('');
+    <details class="faq-item"><summary>${escapeHTML(question)}<span class="faq-plus" aria-hidden="true">+</span></summary><p>${escapeHTML(answer)}</p></details>`).join('');
 
   const registerButton = document.querySelector('#register-button');
   if (!unresolved(data.registrationUrl) && /^https:\/\//i.test(data.registrationUrl)) {
