@@ -1,10 +1,10 @@
 /* Werk alle eventgegevens hier bij. Laat onbekende waarden leeg tot ze bevestigd zijn. */
 window.EVENT_DATA = {
-  name: "Klaverloop",
-  date: "[DATUM]",
-  location: "[LOCATIE]",
-  address: "[ADRES]",
-  transport: "[BEREIKBAARHEID]",
+  name: "MET Runners",
+  date: "[25 April 2027]",
+  location: "[Tielt-Winge]",
+  address: "[Blerebergstraat 4]",
+  transport: "[Parking]",
   facilities: "[FACILITEITEN]",
   registrationUrl: "[INSCHRIJVINGSLINK]",
   contact: "[CONTACTGEGEVENS]",
