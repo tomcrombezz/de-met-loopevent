@@ -1,8 +1,8 @@
 /* Werk alle eventgegevens hier bij. Laat onbekende waarden leeg tot ze bevestigd zijn. */
 window.EVENT_DATA = {
   name: "MET Runners",
-  date: "[25 april 2027]",
-  location: "[Tielt-Winge]",
+  date: "25 april 2027",
+  location: "Tielt-Winge",
   address: "[Blerebergstraat 4]",
   transport: "[Parking]",
   facilities: "[FACILITEITEN]",
