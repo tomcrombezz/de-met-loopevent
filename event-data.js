@@ -11,7 +11,7 @@ window.EVENT_DATA = {
   contactEmail: "",
   officialUrl: "",
   socialUrl: "",
-  distances: ["[AFSTAND 1]", "[AFSTAND 2]", "[AFSTAND 3]"],
+  distances: ["5 km", "10 km", "15 km"],
   program: ["Onthaal · [UUR]", "Startmomenten · [UREN]", "Activiteiten · [INFO]"],
   faq: [
     { question: "Wie mag deelnemen?", answer: "Zonder twijfel: iedereen!" },
