@@ -15,6 +15,7 @@ window.EVENT_DATA = {
   program: ["Onthaal · [UUR]", "Startmomenten · [UREN]", "Activiteiten · [INFO]"],
   faq: [
     { question: "Wie mag deelnemen?", answer: "Zonder twijfel: iedereen!" },
+    { question: "Loopt de directie mee?", answer: "100% zeker dat zou anders heel raar zijn." },
     { question: "Welke afstand kan ik lopen?", answer: "[AFSTANDEN EN DOELGROEPEN]" },
     { question: "Wat kost deelname?", answer: "[DEELNAMEPRIJS]" },
     { question: "Wat als het slecht weer is?", answer: "There is no such thing as bad weather, only bad clothing" },
