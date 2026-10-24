@@ -17,9 +17,9 @@
   document.querySelector('#distance-list').innerHTML = data.distances.map((distance, index) => `
     <article class="distance-card distance-card-${index + 1}">
       <div class="distance-number">0${index + 1}</div><span class="distance-mark" aria-hidden="true">${['↗', '✳', '→'][index]}</span>
-      <p class="eyebrow">${index === 0 ? 'Op jouw tempo' : index === 1 ? 'Samen op pad' : 'Ga de uitdaging aan'}</p>
+      <p class="eyebrow">${index === 0 ? 'Op jouw tempo' : index === 1 ? 'Samen op pad' : 'Ga de challenge aan'}</p>
       <h3>${escapeHTML(distance)}</h3><span class="status-pill">Afstand volgt</span>
-      <p class="distance-detail">Startuur, doelgroep en prijs worden nog bevestigd.</p>
+      <p class="distance-detail">Startuur vanaf 9h , iederen is welkom!</p>
     </article>`).join('');
 
   document.querySelector('#program-list').innerHTML = data.program.map((item, index) => `
